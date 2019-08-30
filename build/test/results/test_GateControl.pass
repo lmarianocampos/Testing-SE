@@ -1,0 +1,38 @@
+---
+:source:
+  :path: test
+  :file: test_GateControl.c
+:successes:
+- :test: test_WaterSpeedWithSubmergedGate
+  :line: 4
+  :message: ''
+- :test: test_WaterSpeedWitFreeGate
+  :line: 22
+  :message: ''
+- :test: test_calculateSection
+  :line: 40
+  :message: ''
+- :test: test_calculateFlow
+  :line: 50
+  :message: ''
+- :test: test_calculateFlowWithSubmergedGate
+  :line: 64
+  :message: ''
+- :test: test_SensorInitialization
+  :line: 83
+  :message: ''
+- :test: test_ValueIncorrectGatePosition
+  :line: 90
+  :message: ''
+- :test: test_calculateFlowWithSubmergedGateAndValueIncorrect
+  :line: 95
+  :message: ''
+:failures: []
+:ignores: []
+:counts:
+  :total: 8
+  :passed: 8
+  :failed: 0
+  :ignored: 0
+:stdout: []
+:time: 0.002482794999991711

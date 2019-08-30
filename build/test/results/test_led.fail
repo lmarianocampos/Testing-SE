@@ -1,0 +1,29 @@
+---
+:source:
+  :path: test
+  :file: test_led.c
+:successes:
+- :test: test_inizializacion
+  :line: 27
+  :message: ''
+- :test: test_apagar_un_led_individual
+  :line: 40
+  :message: ''
+:failures:
+- :test: test_prender_un_led_individual
+  :line: 37
+  :message: Expected 1 Was 0
+- :test: test_prender_y_apagar_varios_leds
+  :line: 50
+  :message: Expected 8 Was 0
+- :test: test_numero_led_invalido
+  :line: 57
+  :message: Expected 'Parametro invalido' Was 'parametro invalido'
+:ignores: []
+:counts:
+  :total: 5
+  :passed: 2
+  :failed: 3
+  :ignored: 0
+:stdout: []
+:time: 0.0018415290005577845
