@@ -4,35 +4,50 @@
   :file: test_GateControl.c
 :successes:
 - :test: test_WaterSpeedWithSubmergedGate
-  :line: 4
+  :line: 6
   :message: ''
 - :test: test_WaterSpeedWitFreeGate
-  :line: 22
+  :line: 24
   :message: ''
 - :test: test_calculateSection
-  :line: 40
+  :line: 41
   :message: ''
 - :test: test_calculateFlow
-  :line: 50
+  :line: 51
   :message: ''
 - :test: test_calculateFlowWithSubmergedGate
-  :line: 64
+  :line: 65
   :message: ''
 - :test: test_SensorInitialization
-  :line: 83
+  :line: 84
   :message: ''
 - :test: test_ValueIncorrectGatePosition
-  :line: 90
+  :line: 91
   :message: ''
 - :test: test_calculateFlowWithSubmergedGateAndValueIncorrect
-  :line: 95
+  :line: 98
+  :message: ''
+- :test: test_GateIncorrectValueRejection
+  :line: 134
+  :message: ''
+- :test: test_SetepperMotorSendPulseTrain
+  :line: 145
+  :message: ''
+- :test: test_StepperMotorMoveTurns
+  :line: 162
+  :message: ''
+- :test: test_StepperMotorMoveAngle
+  :line: 179
+  :message: ''
+- :test: test_StepperMotorWitdhValueIncorrect
+  :line: 198
   :message: ''
 :failures: []
 :ignores: []
 :counts:
-  :total: 8
-  :passed: 8
+  :total: 13
+  :passed: 13
   :failed: 0
   :ignored: 0
 :stdout: []
-:time: 0.002482794999991711
+:time: 0.33833898400007456

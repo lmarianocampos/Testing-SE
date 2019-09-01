@@ -43,6 +43,11 @@ extern void test_calculateFlowWithSubmergedGate(void);
 extern void test_SensorInitialization(void);
 extern void test_ValueIncorrectGatePosition(void);
 extern void test_calculateFlowWithSubmergedGateAndValueIncorrect(void);
+extern void test_GateIncorrectValueRejection(void);
+extern void test_SetepperMotorSendPulseTrain(void);
+extern void test_StepperMotorMoveTurns(void);
+extern void test_StepperMotorMoveAngle(void);
+extern void test_StepperMotorWitdhValueIncorrect(void);
 
 
 /*=======Suite Setup=====*/
@@ -77,14 +82,19 @@ int main(void)
 {
   suite_setup();
   UnityBegin("test_GateControl.c");
-  RUN_TEST(test_WaterSpeedWithSubmergedGate, 4);
-  RUN_TEST(test_WaterSpeedWitFreeGate, 22);
-  RUN_TEST(test_calculateSection, 40);
-  RUN_TEST(test_calculateFlow, 50);
-  RUN_TEST(test_calculateFlowWithSubmergedGate, 64);
-  RUN_TEST(test_SensorInitialization, 83);
-  RUN_TEST(test_ValueIncorrectGatePosition, 90);
-  RUN_TEST(test_calculateFlowWithSubmergedGateAndValueIncorrect, 95);
+  RUN_TEST(test_WaterSpeedWithSubmergedGate, 6);
+  RUN_TEST(test_WaterSpeedWitFreeGate, 24);
+  RUN_TEST(test_calculateSection, 41);
+  RUN_TEST(test_calculateFlow, 51);
+  RUN_TEST(test_calculateFlowWithSubmergedGate, 65);
+  RUN_TEST(test_SensorInitialization, 84);
+  RUN_TEST(test_ValueIncorrectGatePosition, 91);
+  RUN_TEST(test_calculateFlowWithSubmergedGateAndValueIncorrect, 98);
+  RUN_TEST(test_GateIncorrectValueRejection, 134);
+  RUN_TEST(test_SetepperMotorSendPulseTrain, 145);
+  RUN_TEST(test_StepperMotorMoveTurns, 162);
+  RUN_TEST(test_StepperMotorMoveAngle, 179);
+  RUN_TEST(test_StepperMotorWitdhValueIncorrect, 198);
 
   return suite_teardown(UnityEnd());
 }

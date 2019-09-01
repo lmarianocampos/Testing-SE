@@ -1,4 +1,5 @@
 ---
 - unity.h
 - gate.h
+- StepperMotor.h
 - build/temp/_test_GateControl.c

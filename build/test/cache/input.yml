@@ -71,10 +71,10 @@
   :testfail: ".fail"
   :dependencies: ".d"
 :unity:
-  :vendor_path: "/home/mariano/testing en sitemas embebidos/TP3/vendor/ceedling/vendor"
+  :vendor_path: "/home/mariano/testing en sitemas embebidos/trabajo prático n°3/vendor/ceedling/vendor"
   :defines: []
 :cmock:
-  :vendor_path: "/home/mariano/testing en sitemas embebidos/TP3/vendor/ceedling/vendor"
+  :vendor_path: "/home/mariano/testing en sitemas embebidos/trabajo prático n°3/vendor/ceedling/vendor"
   :defines: []
   :includes: []
   :mock_prefix: mock_
@@ -93,7 +93,7 @@
   :verbosity: 3
   :unity_helper: false
 :cexception:
-  :vendor_path: "/home/mariano/testing en sitemas embebidos/TP3/vendor/ceedling/vendor"
+  :vendor_path: "/home/mariano/testing en sitemas embebidos/trabajo prático n°3/vendor/ceedling/vendor"
   :defines: []
 :test_runner:
   :includes: []
